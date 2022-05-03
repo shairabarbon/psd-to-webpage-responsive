@@ -1,0 +1,1220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame1{
+    background-image: url('img/logo\ bg\ nav1.png');
+    background-size: 100% 26%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    padding: 10px 0;
+    height: 100vh; 
+    width: 100%;
+}
+.logo1{
+    background-image: url('img/Logo.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 10% 2%;
+    height: 100vh; 
+    width: 100%;    
+}
+.howtxt1{
+    background-image: url('img/How\ it\ works_txt.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 40% 4%;
+    height: 100vh;
+    width: 100%;    
+} 
+.btn-login{
+    background-image: url('img/Btn_login_nav.png');
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 83% 3%;
+    height: 100vh;
+    width: 100%;   
+}
+.logintxt1{
+    background-image: url('img/Login_txt.png');
+    background-size: 2.9%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 81.5% 4.5%;
+    height: 100vh;
+    width: 100%;    
+}
+.btn-signup{
+    background-image: url('img/Btn_signup_nav1.png');
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 91% 3%;
+    height: 100vh;
+    width: 100%;   
+}
+.signuptxt{
+    background-image: url('img/Signup_txt.png');
+    background-size: 3.5%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 89.3% 4.5%;
+    height: 100vh;
+    width: 100%;  
+}
+.amazon-section{
+    display: flex;
+}
+.amazonbg{
+    background-image: url('img/amabg.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: contain;
+    height: 100vh; 
+    width: 100%;      
+}
+.amazontxt{
+    background-image: url('img/amazontxt.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 10% 50%;
+    height: 100vh; 
+    width: 100%;        
+}
+.play-button{
+    background-image: url('img/play\ button.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 65% 30%;
+    height: 100vh; 
+    width: 100%;  
+}
+/* .discover-section{
+    display: flex;
+}
+.discover-bg{
+    background-image: url('img/bg2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: contain;
+    background-position: 0 500%;
+    padding: 20px 0;
+    height: 100vh; 
+    width: 100%; 
+}*/
+@media only screen and (min-width: 480px){
+    .header-sec{
+        display: flex;
+    }
+    .frame1{
+        background-image: url('img/logo\ bg\ nav1.png');
+        background-size: 100% 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        padding: 10px 0;
+        height: 100vh; 
+        width: 100%;
+    }
+    .logo1{
+        background-image: url('img/Logo.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 2.5%;
+        height: 100vh; 
+        width: 100%;    
+    }
+    .howtxt1{
+        background-image: url('img/How\ it\ works_txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 40% 4%;
+        height: 100vh;
+        width: 100%;    
+    } 
+    .btn-login{
+        background-image: url('img/Btn_login_nav.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 83% 3.5%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .logintxt1{
+        background-image: url('img/Login_txt.png');
+        background-size: 5%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 81.5% 4.2%;
+        height: 100vh;
+        width: 100%;    
+    }
+    .btn-signup{
+        background-image: url('img/Btn_signup_nav1.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 95% 3.5%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .signuptxt{
+        background-image: url('img/Signup_txt.png');
+        background-size: 6%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 93% 4.5%;
+        height: 100vh;
+        width: 100%;  
+    }
+    .amazon-section{
+        display: flex;
+    }
+    .amazonbg{
+        background-image: url('img/amabg.png');
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: contain;
+        height: 100vh; 
+        width: 100%;      
+    }
+    .amazontxt{
+        background-image: url('img/amazontxt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 15.5%;
+        height: 100vh; 
+        width: 100%;        
+    }
+    .play-button{
+        background-image: url('img/play\ button.png');
+        background-size: 15%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 83% 15%;
+        height: 100vh; 
+        width: 100%;  
+    }
+    .discover-section{
+        display: flex;
+    }
+    .discover-bg{
+        background-image: url('img/bg2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 75%;
+        height: 100vh; 
+        width: 100%;
+    }
+    .discover-txt{
+        background-image: url('img/discover_txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 75%;
+        height: 100vh; 
+        width: 100%;   
+    }
+    .discover-btns{
+        background-image: url('img/discover_btns.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 90% 75%;
+        height: 100vh; 
+        width: 100%;   
+    }
+.why-section{
+    display: flex;
+}
+.bg1{
+    background-image: url('img/Layer\ 11.png');
+    background-size: 50vw 40vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 100% 51%;
+    height: 200vh; 
+    width: 100%; 
+}
+.bg2{
+    background-image: url('img/Layer\ 12.png');
+    background-size: 60vw 40vw ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 51%;
+    height: 200vh; 
+    width: 100%;  
+}
+.bg3{
+    background-image: url('img/picture5.png');
+    background-size: 88%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 51%;
+    height: 200vh; 
+    width: 100%;   
+}
+.why-txt{
+    background-image: url('img/why-choose-txt.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 10% 51%;
+    height: 200vh; 
+    width: 100%;   
+}
+.bg4{
+    background-image: url('img/picture4.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 80% 51.7%;
+    height: 200vh; 
+    width: 100%; 
+}
+.bg5{
+    background-image: url('img/set\ appoinment-whychooseus.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 100% 56.5%;
+    height: 200vh; 
+    width: 100%; 
+}
+.tools-section{
+    display: flex;
+}
+.bg01{
+    background-image: url('img/Our\ Tools.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 70%;
+    height: 200vh; 
+    width: 100%;   
+}
+.what-section{
+    display: flex;
+}
+.what-bg{
+    background-image: url('img/layer.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 100% 81.8%;
+    height: 200vh; 
+    width: 100%;   
+}
+.whattxt{
+    background-image: url('img/what-clients.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 30% 80%;
+    height: 200vh; 
+    width: 100%;    
+}
+.excellent{
+    background-image: url('img/excellent.png');
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 10% 86%;
+    height: 200vh; 
+    width: 100%;  
+}
+.three{
+    background-image: url('img/three-stars.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 60% 87%;
+    height: 200vh; 
+    width: 100%; 
+}
+.register-section{
+    display: flex;
+}
+.reg-bg{
+    background-image: url('img/registerbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 85%;
+    height: 250vh; 
+    width: 100%;   
+}
+.reg-bg1{
+    background-image: url('img/Layer14.png');
+    background-size: 45vw 47vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 85%;
+    height: 250vh; 
+    width: 100%;   
+}
+.reg-overlay{
+    background-image: url('img/layer14copy.png');
+    background-size: 45vw 47vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 85%;
+    height: 250vh; 
+    width: 100%;      
+}
+.register{
+    background-image: url('img/registerbtns.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 80% 85%;
+    height: 250vh; 
+    width: 100%;   
+} 
+.latest-bg{
+    background-image: url('img/sellersbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 81.9%;
+    height: 300vh; 
+    width: 100%;
+}
+.sellers-txt{
+    background-image: url('img/sellers-txt.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 50% 76%;
+    height: 300vh; 
+    width: 100%;
+}
+.sellers-pic{
+    background-image: url('img/sellers-pic.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 50% 81%;
+    height: 300vh; 
+    width: 100%;
+}
+.footer{
+    display: flex;
+}
+.footer-bg{
+    background-image: url('img/Frame2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0 101%;
+    height: 275vh; 
+    width: 100%;  
+}
+.footer-logo{
+    background-image: url('img/Subscribe\ .png');
+    background-size: 18%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 10% 96%;
+    height: 275vh; 
+    width: 100%;  
+}
+.line-1{
+    background-image: url('img/all-right-reserved.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 40% 98%;
+    height: 275vh; 
+    width: 100%;   
+}
+.how-txt{
+    background-image: url('img/footer-txt.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 80% 96%;
+    height: 275vh; 
+    width: 100%;   
+}
+}
+@media only screen and (min-width: 980px){
+    .header-sec{
+        display: flex;
+    }
+    .frame1{
+        background-image: url('img/logo\ bg\ nav1.png');
+        background-size: 100% 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        padding: 10px 0;
+        height: 100vh; 
+        width: 100%;
+    }
+    .logo1{
+        background-image: url('img/Logo.png');
+        background-size: 6%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 2.5%;
+        height: 100vh; 
+        width: 100%;    
+    }
+    .howtxt1{
+        background-image: url('img/How\ it\ works_txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 40% 4%;
+        height: 100vh;
+        width: 100%;    
+    } 
+    .btn-login{
+        background-image: url('img/Btn_login_nav.png');
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 83% 3%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .logintxt1{
+        background-image: url('img/Login_txt.png');
+        background-size: 4%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 81.5% 4.2%;
+        height: 100vh;
+        width: 100%;    
+    }
+    .btn-signup{
+        background-image: url('img/Btn_signup_nav1.png');
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 93% 3%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .signuptxt{
+        background-image: url('img/Signup_txt.png');
+        background-size: 5%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 91.5% 4.5%;
+        height: 100vh;
+        width: 100%;  
+    }
+    .amazon-section{
+        display: flex;
+    }
+    .amazonbg{
+        background-image: url('img/amabg.png');
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: contain;
+        height: 100vh; 
+        width: 100%;      
+    }
+    .amazontxt{
+        background-image: url('img/amazontxt.png');
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 50%;
+        height: 100vh; 
+        width: 100%;        
+    }
+    .play-button{
+        background-image: url('img/play\ button.png');
+        background-size: 15%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 75% 30%;
+        height: 100vh; 
+        width: 100%;  
+    } 
+    .discover-section{
+        display: flex;
+    }
+    .discover-bg{
+        background-image: url('img/bg2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: contain;
+        background-position: 0 70%;
+        height: 200vh; 
+        width: 100%;
+    }
+    .discover-txt{
+        background-image: url('img/discover_txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 70%;
+        height: 200vh; 
+        width: 100%;   
+    }
+    .discover-btns{
+        background-image: url('img/discover_btns.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 90% 70%;
+        height: 200vh; 
+        width: 100%;   
+    }
+    .why-section{
+        display: flex;
+    }
+    .bg1{
+        background-image: url('img/Layer\ 11.png');
+        background-size: 50vw 40vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 49.3%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .bg2{
+        background-image: url('img/Layer\ 12.png');
+        background-size: 60vw 40vw ;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 49.3%;
+        height: 400vh; 
+        width: 100%;  
+    }
+    .bg3{
+        background-image: url('img/picture5.png');
+        background-size: 88%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 49.3%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .why-txt{
+        background-image: url('img/why-choose-txt.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 49.3%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .bg4{
+        background-image: url('img/picture4.png');
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 50.1%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .bg5{
+        background-image: url('img/set\ appoinment-whychooseus.png');
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 55.1%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .tools-section{
+        display: flex;
+    }
+    .bg01{
+        background-image: url('img/Our\ Tools.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 70%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .what-section{
+        display: flex;
+    }
+    .what-bg{
+        background-image: url('img/layer.png');
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 81.8%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .whattxt{
+        background-image: url('img/what-clients.png');
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 30% 80%;
+        height: 400vh; 
+        width: 100%;    
+    }
+    .excellent{
+        background-image: url('img/excellent.png');
+        background-size: 13%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 86%;
+        height: 400vh; 
+        width: 100%;  
+    }
+    .three{
+        background-image: url('img/three-stars.png');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 60% 87%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .register-section{
+        display: flex;
+    }
+    .reg-bg{
+        background-image: url('img/registerbg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;   
+    }
+    .reg-bg1{
+        background-image: url('img/Layer14.png');
+        background-size: 45vw 47vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;   
+    }
+    .reg-overlay{
+        background-image: url('img/layer14copy.png');
+        background-size: 45vw 47vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;      
+    }
+    .register{
+        background-image: url('img/registerbtns.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 85%;
+        height: 500vh; 
+        width: 100%;   
+    } 
+    .latest-bg{
+        background-image: url('img/sellersbg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 81.9%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .sellers-txt{
+        background-image: url('img/sellers-txt.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 50% 76%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .sellers-pic{
+        background-image: url('img/sellers-pic.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 50% 81%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+    }
+    .footer-bg{
+        background-image: url('img/Frame2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 101%;
+        height: 600vh; 
+        width: 100%;  
+    }
+    .footer-logo{
+        background-image: url('img/Subscribe\ .png');
+        background-size: 18%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 96%;
+        height: 600vh; 
+        width: 100%;  
+    }
+    .line-1{
+        background-image: url('img/all-right-reserved.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 40% 98%;
+        height: 600vh; 
+        width: 100%;   
+    }
+    .how-txt{
+        background-image: url('img/footer-txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 96%;
+        height: 600vh; 
+        width: 100%;   
+    }
+}
+@media only screen and (min-width: 1920px){
+    .header-sec{
+        display: flex;
+    }
+    .frame1{
+        background-image: url('img/logo\ bg\ nav1.png');
+        background-size: 100% 10%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        padding: 10px 0;
+        height: 100vh; 
+        width: 100%;
+    }
+    .logo1{
+        background-image: url('img/Logo.png');
+        background-size: 6%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 2%;
+        height: 100vh; 
+        width: 100%;    
+    }
+    .howtxt1{
+        background-image: url('img/How\ it\ works_txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 40% 4%;
+        height: 100vh;
+        width: 100%;    
+    } 
+    .btn-login{
+        background-image: url('img/Btn_login_nav.png');
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 83% 3%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .logintxt1{
+        background-image: url('img/Login_txt.png');
+        background-size: 4%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 81.5% 4.2%;
+        height: 100vh;
+        width: 100%;    
+    }
+    .btn-signup{
+        background-image: url('img/Btn_signup_nav1.png');
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 93% 3%;
+        height: 100vh;
+        width: 100%;   
+    }
+    .signuptxt{
+        background-image: url('img/Signup_txt.png');
+        background-size: 5%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 91.5% 4.5%;
+        height: 100vh;
+        width: 100%;  
+    } 
+    .amazon-section{
+        display: flex;
+    }
+    .amazonbg{
+        background-image: url('img/amabg.png');
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: contain;
+        height: 100vh; 
+        width: 100%;      
+    }
+    .amazontxt{
+        background-image: url('img/amazontxt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 45%;
+        height: 100vh; 
+        width: 100%;        
+    }
+    .play-button{
+        background-image: url('img/play\ button.png');
+        background-size: 15%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 30%;
+        height: 100vh; 
+        width: 100%;  
+    }
+    .why-section{
+        display: flex;
+    }
+    .bg1{
+        background-image: url('img/Layer\ 11.png');
+        background-size: 50vw 40vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 49.3%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .bg2{
+        background-image: url('img/Layer\ 12.png');
+        background-size: 60vw 40vw ;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 49.3%;
+        height: 400vh; 
+        width: 100%;  
+    }
+    .bg3{
+        background-image: url('img/picture5.png');
+        background-size: 88%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 49.3%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .why-txt{
+        background-image: url('img/why-choose-txt.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 49.3%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .bg4{
+        background-image: url('img/picture4.png');
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 50.1%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .bg5{
+        background-image: url('img/set\ appoinment-whychooseus.png');
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 55.1%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .tools-section{
+        display: flex;
+    }
+    .bg01{
+        background-image: url('img/Our\ Tools.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 69%;
+        height: 400vh; 
+        width: 100%;   
+    } 
+    .what-section{
+        display: flex;
+    }
+    .what-bg{
+        background-image: url('img/layer.png');
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 100% 80.9%;
+        height: 400vh; 
+        width: 100%;   
+    }
+    .whattxt{
+        background-image: url('img/what-clients.png');
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 30% 80%;
+        height: 400vh; 
+        width: 100%;    
+    }
+    .excellent{
+        background-image: url('img/excellent.png');
+        background-size: 13%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 86%;
+        height: 400vh; 
+        width: 100%;  
+    }
+    .three{
+        background-image: url('img/three-stars.png');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 60% 87%;
+        height: 400vh; 
+        width: 100%; 
+    }
+    .register-section{
+        display: flex;
+    }
+    .reg-bg{
+        background-image: url('img/registerbg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;   
+    }
+    .reg-bg1{
+        background-image: url('img/Layer14.png');
+        background-size: 45vw 47vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;   
+    }
+    .reg-overlay{
+        background-image: url('img/layer14copy.png');
+        background-size: 45vw 47vw;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 85%;
+        height: 500vh; 
+        width: 100%;      
+    }
+    .register{
+        background-image: url('img/registerbtns.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 85%;
+        height: 500vh; 
+        width: 100%;   
+    } 
+    .latest-bg{
+        background-image: url('img/sellersbg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 81.9%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .sellers-txt{
+        background-image: url('img/sellers-txt.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 50% 76%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .sellers-pic{
+        background-image: url('img/sellers-pic.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 50% 81%;
+        height: 600vh; 
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+    }
+    .footer-bg{
+        background-image: url('img/Frame2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 0 101%;
+        height: 600vh; 
+        width: 100%;  
+    }
+    .footer-logo{
+        background-image: url('img/Subscribe\ .png');
+        background-size: 18%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 10% 96%;
+        height: 600vh; 
+        width: 100%;  
+    }
+    .line-1{
+        background-image: url('img/all-right-reserved.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 40% 98%;
+        height: 600vh; 
+        width: 100%;   
+    }
+    .how-txt{
+        background-image: url('img/footer-txt.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        position: absolute;
+        background-position: 80% 96%;
+        height: 600vh; 
+        width: 100%;   
+    }
+}
